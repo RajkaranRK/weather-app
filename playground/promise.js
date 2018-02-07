@@ -10,7 +10,7 @@
 // },(errorMessage)=>{
 //   console.log('Error : ',errorMessage);
 // });
-
+//https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/t/lecture/5795058?start=0
 var asyncAdd = (a,b)=>{
   return  new Promise((resolve,reject)=>{
     setTimeout(()=>{
@@ -25,6 +25,7 @@ var asyncAdd = (a,b)=>{
 
 asyncAdd(10,20).then((result)=>{
   console.log('Sum of two number is ',result);
+
 },(errorMessage)=>{
   console.log(errorMessage);
 });
